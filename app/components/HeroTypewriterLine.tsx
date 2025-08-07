@@ -32,7 +32,7 @@ export default function HeroTypewriterLine({
           clearInterval(interval);
           setShowCursor(false);
         }
-      }, 32);
+      }, 17);
     }, delay);
 
     return () => clearTimeout(startTyping);

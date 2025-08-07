@@ -45,11 +45,11 @@ export default function ExpandableBlock() {
     <div className="mt-8 max-w-2xl w-full text-left">
       <button
         onClick={() => setExpanded(!expanded)}
-        className="text-sm text-gray-400 hover:text-white italic transition duration-200"
+        className="text-sm italic text-gray-400 hover:text-white transition duration-200 animate-pulse"
       >
         {expanded
-          ? '← Silence'
-          : 'What it reveals when everyone else stays silent →'}
+          ? '↑ Collapse'
+          : 'Tap to reveal what silence hides ↓'}
       </button>
 
       <AnimatePresence initial={false}>
