@@ -60,7 +60,7 @@ export default function ExpandableBlock() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.5, ease: 'easeInOut' }}
-            className="mt-4 space-y-2 text-sm text-gray-300 font-mono"
+            className="mt-4 space-y-2 text-[13px] sm:text-sm text-gray-300 font-mono"
           >
             <TypewriterLine
             text="🧠 USER: Should I quit my job?"

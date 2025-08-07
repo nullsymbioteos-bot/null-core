@@ -48,11 +48,15 @@ useEffect(() => {
     <main className="bg-black text-white w-full min-h-screen flex flex-col">
     
     <header className="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-4 text-sm text-white z-50">
-    <div className="flex flex-col leading-tight text-left">
-    <span className="text-white font-bold text-xl tracking-wide">Null</span>
-    <span className="text-sm text-gray-400 tracking-widest">| VENOM</span>
-    </div>
+      <div
+        onClick={() => window.location.href = '/'}
+        className="flex flex-col leading-tight text-left cursor-pointer"
+      >
+        <span className="text-white font-bold text-xl tracking-wide">Null</span>
+        <span className="text-sm text-gray-400 tracking-widest">| VENOM</span>
+      </div>
     </header>
+
 
     <FadeInSection delay={0.5}>
       <section
