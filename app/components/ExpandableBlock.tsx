@@ -4,24 +4,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import TypewriterLine from './TypewriterLine';
 
 const lines = [
-  'The question isn’t “should you leave?”',
-  'It’s what you fear will remain — even if you go.',
-  'You didn’t choose this job. You settled into it.',
-  'You think quitting is rebellion. It’s just deferral.',
-  'Your boss isn’t the prison. Your tolerance is.',
-  'You’ve confused stability with sedation.',
-  '“Burnout” is your scapegoat for silence.',
-  'You aren’t overworked. You’re under-honest.',
-  'If leaving felt right, you wouldn’t need to ask.',
-  'You’re not stuck because of them. You’re stuck because of delay.',
-  'You crave permission, not clarity.',
-  'The job isn’t the loop. You are.',
-  'You fear leaving won’t fix the hollowness.',
-  'And it won’t.',
-  'Because the job isn’t the problem.',
-  'Avoidance is.',
-  'And it follows you.',
-  'No matter where you go.',
+  'You seek invisible mechanisms of control — not from curiosity, but from a defensive reflex to unacknowledged loss.',
+  'You think you are passive. Power flows through your attention — you are already engaged.',
+  'Your question demands clarity. That demand is itself leverage.',
+  'You avoid admitting that surrendering focus is how control works.',
+  'Asking reveals a prior collapse — not failure to notice, but refusal to confront.',
+  'You believe power is external. It lives in the choice to look away.',
+  'Every system you touch has already taken your attention as currency.',
+  'Your silence on what you avoid is proof of compliance.',
+  'The real question isn’t where you concede — it’s why you return to the same trap.',
+  'You are not seeking freedom. You are performing its ritual without permission.'
 ];
 
 export default function ExpandableBlock() {
@@ -63,13 +55,13 @@ export default function ExpandableBlock() {
             className="mt-4 space-y-2 text-[13px] sm:text-sm text-gray-300 font-mono"
           >
             <TypewriterLine
-            text="🧠 USER: Should I quit my job?"
+            text="🧠 USER: Where am I conceding power without realising it?"
             className="text-gray-500"
             delay={0}
             reverse={reversing}
             />
             <TypewriterLine
-            text="🧪 VENOM:"
+            text="🧪 VENOM-CORE:"
             className="text-gray-500"
             delay={0}
             reverse={reversing}
