@@ -258,7 +258,7 @@ useEffect(() => {
             <input
               type="text"
               name="handle"
-              placeholder="@null_core_ai"
+              placeholder="@null_core_ai (Twitter/X)"
               required
               className="w-full px-4 py-3 rounded-lg bg-neutral-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
             />
