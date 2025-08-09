@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Null-Core",
     images: [
       {
-        url: "/og-image.png", // add a strong visual for X/FB previews
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Null VENOM",
@@ -40,7 +41,6 @@ export const metadata: Metadata = {
       "Stateless. Surgical. Not intelligence — interference. Venom exposes what they hide — no filters, no softness.",
     images: ["/og-image.png"],
   },
-
   icons: {
     icon: [
       { url: "/favicon-venom.ico?v=3" },
@@ -55,11 +55,7 @@ export const metadata: Metadata = {
     shortcut: ["/favicon-venom.ico?v=3"],
   },
   manifest: "/site-venom.webmanifest?v=3",
-
 };
-
-
-
 
 export default function RootLayout({
   children,
@@ -68,10 +64,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
