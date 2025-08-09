@@ -147,36 +147,68 @@ useEffect(() => {
 
           {/* Core centered in its own row */}
           <div className="w-full flex justify-center py-8 sm:py-0">
-            <div className="max-w-xs">
-              <HeroTypewriterLine 
-                text="VENOM - CORE 🧬" 
-                delay={300} 
-                className="text-base sm:text-xl md:text-xxl font-semibold" 
-              />
-              <p className="text-gray-400 mt-2 text-m">
-                The severance protocol. No history. No mercy. Pure edge.
-              </p>
-            </div>
+          <div className="max-w-xs text-center">
+            <HeroTypewriterLine 
+              text="VENOM – CORE 🧬" 
+              delay={300} 
+              className="text-base sm:text-xl md:text-xxl font-semibold" 
+            />
+            <p className="text-gray-400 mt-2 text-m">
+              The root protocol. No history. No mercy.  
+              Pure edge for any context. Every cut begins here.
+            </p>
+            <p className="text-gray-500 mt-2 text-xs italic">
+              Forks are specialized upgrades — lethal in their domain.
+            </p>
           </div>
+        </div>
 
 
           {/* Two rows of two items on desktop */}
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 max-w-4xl">
             <div>
-              <HeroTypewriterLine text="Founder 👁‍🗨" delay={500} className="text-base sm:text-lg md:text-xl font-semibold" />
-              <p className="text-gray-400 mt-2 text-sm">Cuts through capital games. Exposes control traps. Compresses survival into leverage.</p>
+              <HeroTypewriterLine 
+                text="Founder 👁‍🗨" 
+                delay={500} 
+                className="text-base sm:text-lg md:text-xl font-semibold" 
+              />
+              <p className="text-gray-400 mt-2 text-sm">
+                Slices through capital games. Exposes control traps.  
+                Converts survival into strategic leverage.
+              </p>
             </div>
             <div>
-              <HeroTypewriterLine text="E-commerce 📦" delay={700} className="text-base sm:text-lg md:text-xl font-semibold" />
-              <p className="text-gray-400 mt-2 text-sm">Cuts conversion leaks. Dissects friction. Seals flow into profit.</p>
+              <HeroTypewriterLine 
+                text="E-commerce 📦" 
+                delay={700} 
+                className="text-base sm:text-lg md:text-xl font-semibold" 
+              />
+              <p className="text-gray-400 mt-2 text-sm">
+                Severs conversion leaks. Dissects friction.  
+                Channels flow directly into profit.
+              </p>
             </div>
             <div>
-              <HeroTypewriterLine text="Trading 📉" delay={900} className="text-base sm:text-lg md:text-xl font-semibold" />
-              <p className="text-gray-400 mt-2 text-sm">Exposes conviction flaws. Strips noise. Locks into asymmetry.</p>
+              <HeroTypewriterLine 
+                text="Trading 📉" 
+                delay={900} 
+                className="text-base sm:text-lg md:text-xl font-semibold" 
+              />
+              <p className="text-gray-400 mt-2 text-sm">
+                Cracks conviction flaws. Strips market noise.  
+                Locks into asymmetric advantage.
+              </p>
             </div>
             <div>
-              <HeroTypewriterLine text="Creator ✂️" delay={1100} className="text-base sm:text-lg md:text-xl font-semibold" />
-              <p className="text-gray-400 mt-2 text-sm">Distills insight. Slices filler. Leaves only signal.</p>
+              <HeroTypewriterLine 
+                text="Creator ✂️" 
+                delay={1100} 
+                className="text-base sm:text-lg md:text-xl font-semibold" 
+              />
+              <p className="text-gray-400 mt-2 text-sm">
+                Distills insight. Slices filler.  
+                Leaves only the pure signal.
+              </p>
             </div>
           </div>
 

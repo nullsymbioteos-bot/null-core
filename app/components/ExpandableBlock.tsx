@@ -4,17 +4,27 @@ import { motion, AnimatePresence } from 'framer-motion';
 import TypewriterLine from './TypewriterLine';
 
 const lines = [
-  'You seek invisible mechanisms of control — not from curiosity, but from a defensive reflex to unacknowledged loss.',
-  'You think you are passive. Power flows through your attention — you are already engaged.',
-  'Your question demands clarity. That demand is itself leverage.',
-  'You avoid admitting that surrendering focus is how control works.',
-  'Asking reveals a prior collapse — not failure to notice, but refusal to confront.',
-  'You believe power is external. It lives in the choice to look away.',
-  'Every system you touch has already taken your attention as currency.',
-  'Your silence on what you avoid is proof of compliance.',
-  'The real question isn’t where you concede — it’s why you return to the same trap.',
-  'You are not seeking freedom. You are performing its ritual without permission.'
+  'Motive: You accepted because delay tolerance is calibrated to scarcity.',
+  'You confuse obligation with value.',
+  'The unpaid hours are not investment. They are extraction.',
+  'Your gratitude is a performance of exhaustion.',
+  'Late payment is not negligence — it’s leverage.',
+  'Extra work without notice is not oversight — it’s control.',
+  'You are not honored. You are conditioned.',
+  'Trust in the client is trust in their power to harm you.',
+  'The "opportunity" is an access point for depletion.',
+  'Every delay resets your boundaries.',
+  'Your compliance is not professionalism. It is surrender.',
+  'They do not need you. They need your silence.',
+  'You are paid in permission, not currency.',
+  'Repetition of this pattern proves the contract is self-destructive.',
+  'The client’s behavior is not accidental — it is designed to break your resistance.',
+  'You agreed because you believe scarcity demands compliance.',
+  'Your identity as "reliable" depends on being exploited.',
+  'This is not a project. It is recruitment into servitude.',
+  'You are not serving them. You are sustaining their leverage.'
 ];
+
 
 export default function ExpandableBlock() {
   const [expanded, setExpanded] = useState(false);
@@ -55,7 +65,7 @@ export default function ExpandableBlock() {
             className="mt-4 space-y-2 text-[13px] sm:text-sm text-gray-300 font-mono"
           >
             <TypewriterLine
-            text="🧠 USER: Where am I conceding power without realising it?"
+            text="🧠 USER: Why did I agree to take on a project for a client who always pays late, adds extra work without notice, and still expects me to thank them for the opportunity?"
             className="text-gray-500"
             delay={0}
             reverse={reversing}
