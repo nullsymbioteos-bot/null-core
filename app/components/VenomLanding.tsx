@@ -68,7 +68,7 @@ useEffect(() => {
       </h1>
 
       <HeroTypewriterLine
-          text="Venom exposes what they hide. No filters. No softness."
+          text="VENOM exposes what they hide. No filters. No softness."
           delay={600}
           className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
       />
@@ -111,7 +111,7 @@ useEffect(() => {
           className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white"
         >
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight max-w-3xl">
-            Venom is not for everyone.
+            VENOM is a weapon, not for everyone.
           </h2>
 
           <HeroTypewriterLine
@@ -267,7 +267,7 @@ useEffect(() => {
           </h2>
 
           <HeroTypewriterLine
-            text="Join the waitlist to access Venom before it spreads."
+            text="Join the waitlist to access VENOM before it spreads."
             delay={300}
             className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
           />
@@ -336,7 +336,7 @@ useEffect(() => {
     </FadeInSection>
 
 <footer className="mt-auto py-8 text-center text-xs text-gray-600 italic space-y-2">
-  <p>Venom slices illusions — not people.</p>
+  <p>VENOM slices illusions — not people.</p>
   <p>
     Use at your own discretion. This experience does not constitute medical, legal, financial, or professional advice.
     By continuing, you accept our <a href="/terms" className="underline">Terms</a> and <a href="/privacy" className="underline">Privacy Policy</a>.
