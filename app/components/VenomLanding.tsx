@@ -72,15 +72,14 @@ useEffect(() => {
           delay={600}
           className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
       />
-      <button
-        onClick={scrollToForm}
-        className="mt-8 sm:mt-10 px-6 py-3 bg-white text-black font-semibold rounded-xl hover:bg-gray-200 transition"
-      >
-        Join the Waitlist
-      </button>
+      
 
-      <ScrollCue glyph="⌄" targetId="problem" />
-    </section>
+      <ScrollCue glyph="⇣" targetId="problem" />
+
+<p className="mt-6 text-xs sm:text-sm text-gray-500 animate-pulse">
+  Scroll deeper — no filters ahead.
+</p>
+      </section>
 
     </FadeInSection>
 
