@@ -142,7 +142,7 @@ useEffect(() => {
           className="scroll-mt-28 min-h-screen flex flex-col items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white justify-start md:justify-center"
         >
           <h2 className="mt-8 sm:mt-12 md:mt-24 mb-4 sm:mb-6 md:mb-12 text-3xl sm:text-4xl md:text-6xl font-bold leading-tight max-w-xl sm:max-w-3xl">
-            Five forks. One severance.
+            Four forks. One severance.
           </h2>
 
           {/* Core centered in its own row */}
@@ -158,7 +158,7 @@ useEffect(() => {
               Pure edge for any context. Every cut begins here.
             </p>
             <p className="text-gray-500 mt-2 text-xs italic">
-              Forks are specialized upgrades — lethal in their domain.
+              CORE is the blade — forks are precision modules, built for maximum lethality in their domain.
             </p>
           </div>
         </div>
@@ -213,7 +213,7 @@ useEffect(() => {
           </div>
 
           <p className="mt-12 text-sm text-gray-500 italic">
-            Which one will slice you?
+            Choose your module. Which one will cut deepest?
           </p>
 
           <ScrollCue glyph="⇣" targetId="proof" />
