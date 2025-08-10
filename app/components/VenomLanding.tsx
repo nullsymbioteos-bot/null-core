@@ -297,7 +297,7 @@ useEffect(() => {
             <input
               type="text"
               name="handle"
-              placeholder="@null_core_ai (Twitter/X)"
+              placeholder="@null_core_ai"
               required
               className="w-full px-4 py-3 rounded-lg bg-neutral-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-white"
             />
@@ -309,7 +309,7 @@ useEffect(() => {
             </button>
 
             <p className="mt-1 text-sm text-gray-500 italic">
-              We will send you a DM when it opens.
+              VENOM marks those who touched it first.
             </p>
           </form>
 
@@ -320,7 +320,7 @@ useEffect(() => {
               transition={{ duration: 0.4 }}
             >
               <HeroTypewriterLine
-                text="☑️ Logged. Venom awaits."
+                text="☑️ Logged. VENOM awaits."
                 delay={300}
                 className="mt-4 text-sm text-gray-400"
               />
@@ -329,7 +329,7 @@ useEffect(() => {
 
           <ScrollCue glyph="↺" targetId="hero" />
           <p className="mt-1 text-sm text-gray-500 italic">
-            Rewind to bleed again?
+             Replay the first wound?
           </p>
         </section>
     </FadeInSection>
