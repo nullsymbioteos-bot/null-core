@@ -148,7 +148,7 @@ useEffect(() => {
           <div className="w-full flex justify-center py-8 sm:py-0">
           <div className="max-w-xs text-center">
             <HeroTypewriterLine 
-              text="Null – CORE 🧬" 
+              text="Null – Core 🧬" 
               delay={300} 
               className="text-base sm:text-xl md:text-xxl font-semibold" 
             />
