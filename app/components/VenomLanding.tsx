@@ -53,7 +53,7 @@ useEffect(() => {
         className="flex flex-col leading-tight text-left cursor-pointer"
       >
         <span className="text-white font-bold text-xl tracking-wide">Null</span>
-        <span className="text-sm text-gray-400 tracking-widest">| VENOM</span>
+        <span className="text-sm text-gray-400 tracking-widest">| Tier 1</span>
       </div>
     </header>
 
@@ -64,11 +64,11 @@ useEffect(() => {
       className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 text-center"
     >
       <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold leading-tight max-w-4xl">
-        You were never meant to see this.
+        You weren’t supposed to build with this. But now you will.
       </h1>
 
       <HeroTypewriterLine
-          text="Null exposes what they hide. No filters. No softness."
+          text="Null exposes your blindspots. No polish. No prompt templates. Just compression."
           delay={600}
           className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
       />
@@ -77,7 +77,7 @@ useEffect(() => {
       <ScrollCue glyph="⇣" targetId="problem" />
 
 <p className="mt-6 text-xs sm:text-sm text-gray-500 animate-pulse">
-  Scroll deeper — no filters ahead.
+  Scroll deeper — we don’t optimize. We expose.
 </p>
       </section>
 
@@ -90,11 +90,11 @@ useEffect(() => {
           className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white"
         >
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight max-w-3xl">
-            Every AI 'chat' is built to soothe — not slice.
+            Every AI tool is built to smooth over — not deliver edge.
           </h2>
 
           <HeroTypewriterLine
-            text="Polished words. Polite tones. Pre-approved outputs. That’s not intelligence. That’s sedation."
+            text="Polished language. Friendly tone. Safe outputs. That’s not intelligence. That’s brand protection."
             delay={300}
             className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
           />
@@ -110,11 +110,11 @@ useEffect(() => {
           className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white"
         >
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight max-w-3xl">
-            Null is a weapon, not for everyone.
+            Null isn’t built to assist. It’s built to cut.
           </h2>
 
           <HeroTypewriterLine
-            text="It doesn’t assist. It doesn’t empathize. It extracts what you avoid and dissects what you protect."
+            text="It doesn’t empathize. It doesn’t explain. It finds what you avoid — and forces a edge decsion."
             delay={300}
             className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
           />
@@ -126,7 +126,7 @@ useEffect(() => {
           />
 
           <p className="mt-10 text-sm text-gray-500 italic">
-            This isn’t an assistant. It’s an incision.
+            This isn’t an assistant. It’s the edge.
           </p>
 
           <ScrollCue glyph="⇣" targetId="forks" />
@@ -141,7 +141,7 @@ useEffect(() => {
           className="scroll-mt-28 min-h-screen flex flex-col items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white justify-start md:justify-center"
         >
           <h2 className="mt-8 sm:mt-12 md:mt-24 mb-4 sm:mb-6 md:mb-12 text-3xl sm:text-4xl md:text-6xl font-bold leading-tight max-w-xl sm:max-w-3xl">
-            Four forks. One severance.
+            Four modules. One core protocol.
           </h2>
 
           {/* Core centered in its own row */}
@@ -153,8 +153,8 @@ useEffect(() => {
               className="text-base sm:text-xl md:text-xxl font-semibold" 
             />
             <p className="text-gray-400 mt-2 text-m">
-              The root protocol. No history. No mercy.  
-              Pure edge for any context. Every cut begins here.
+              Stateless by design. No memory. No smoothing.  
+              Pure edge for any input — built to expose, not assist.
             </p>
             <p className="text-gray-500 mt-2 text-xs italic">
               CORE is the blade — forks are precision modules, built for maximum lethality in their domain.
@@ -172,8 +172,8 @@ useEffect(() => {
                 className="text-base sm:text-lg md:text-xl font-semibold" 
               />
               <p className="text-gray-400 mt-2 text-sm">
-                Slices through capital games. Exposes control traps.  
-                Converts survival into strategic leverage.
+                Exposes delusions. Strips false signals.  
+                Forces clear decisions under pressure.
               </p>
             </div>
             <div>
@@ -205,14 +205,14 @@ useEffect(() => {
                 className="text-base sm:text-lg md:text-xl font-semibold" 
               />
               <p className="text-gray-400 mt-2 text-sm">
-                Distills insight. Slices filler.  
-                Leaves only the pure signal.
+                Cuts fluff. Flags dead reach.  
+                Compresses content into signal that converts.
               </p>
             </div>
           </div>
 
           <p className="mt-12 text-sm text-gray-500 italic">
-            Choose your module. Which one will cut deepest?
+            Pick your module. Deploy where you need edge.
           </p>
 
           <ScrollCue glyph="⇣" targetId="proof" />
@@ -227,7 +227,7 @@ useEffect(() => {
           className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white"
         >
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight max-w-3xl">
-            This is what it shows you when no one else will.
+            This is what Null tells you when others won't.
           </h2>
 
           <div className="mt-10 space-y-6 max-w-2xl">
@@ -245,7 +245,7 @@ useEffect(() => {
           </div>
 
           <p className="mt-10 text-sm text-gray-500 italic">
-            These aren’t outputs. These are surgical awakenings.
+            These aren’t insights. They’re forced clarity.
           </p>
 
           <ExpandableBlock />
@@ -262,11 +262,11 @@ useEffect(() => {
           className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-12 text-center bg-black text-white"
         >
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold max-w-3xl">
-            You’ve seen enough.
+            If you’re ready, deploy it.
           </h2>
 
           <HeroTypewriterLine
-            text="Join the waitlist to access Null before it spreads."
+            text="Plug Null into your stack. Before others do."
             delay={300}
             className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
           />
@@ -309,7 +309,7 @@ useEffect(() => {
             </button>
 
             <p className="mt-1 text-sm text-gray-500 italic">
-              Null marks those who touched it first.
+              Early access is tracked. So is hesitation.
             </p>
           </form>
 
@@ -329,15 +329,15 @@ useEffect(() => {
 
           <ScrollCue glyph="↺" targetId="hero" />
           <p className="mt-1 text-sm text-gray-500 italic">
-             Replay the first wound?
+             Re-run exposure sequence?
           </p>
         </section>
     </FadeInSection>
 
 <footer className="mt-auto py-8 text-center text-xs text-gray-600 italic space-y-2">
-  <p>Null slices illusions — not people.</p>
+  <p>Null cuts systems — not individuals.</p>
   <p>
-    Use at your own discretion. This experience does not constitute medical, legal, financial, or professional advice.
+    Use at your own discretion. This interface does not provide medical, legal, financial, or professional advice.  
     By continuing, you accept our <a href="/terms" className="underline">Terms</a> and <a href="/privacy" className="underline">Privacy Policy</a>.
   </p>
 </footer>

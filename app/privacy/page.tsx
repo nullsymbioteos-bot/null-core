@@ -4,21 +4,21 @@ export default function PrivacyPage() {
       <h1 className="text-white text-2xl font-semibold">Privacy Policy</h1>
 
       <p>
-        Venom does not store or share any personally identifiable information unless explicitly stated.
+        Null does not collect or retain personally identifiable data unless explicitly provided.
       </p>
 
       <p>
-        We may use anonymized data for debugging or performance improvement. 
-        No user input is stored permanently unless you join our waitlist or opt-in.
+        Anonymized usage data may be used for diagnostics and performance tuning. 
+        No user input is stored long-term unless you join the waitlist or opt in.
       </p>
 
       <p>
-        If you join the waitlist, we will store your @handle for the purpose of future notification. 
-        You may request removal at any time.
+        If you join the waitlist, your @handle will be stored for notification purposes only.  
+        You can request removal at any time.
       </p>
 
       <p>
-        This policy may be updated without notice.
+        This policy may change without notice.
       </p>
     </div>
   );
