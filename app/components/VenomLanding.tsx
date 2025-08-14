@@ -63,7 +63,7 @@ useEffect(() => {
       id="hero"
       className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-12 text-center"
     >
-      <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold leading-tight max-w-4xl">
+      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight max-w-3xl">
         You weren’t supposed to build with this. But now you will.
       </h1>
 

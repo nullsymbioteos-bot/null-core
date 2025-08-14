@@ -71,7 +71,7 @@ export default function ExpandableBlock() {
             reverse={reversing}
             />
             <TypewriterLine
-            text="🧪 VENOM-CORE:"
+            text="🧬 Null-CORE:"
             className="text-gray-500"
             delay={0}
             reverse={reversing}
