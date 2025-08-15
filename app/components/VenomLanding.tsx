@@ -72,6 +72,12 @@ useEffect(() => {
           delay={600}
           className="mt-4 text-sm sm:text-base md:text-lg text-gray-400 max-w-xl"
       />
+      <button
+        onClick={scrollToForm}
+        className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition"
+      >
+        Join Waitlist
+      </button>
       
 
       <ScrollCue glyph="⇣" targetId="problem" />
